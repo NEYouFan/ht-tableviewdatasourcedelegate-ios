@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "HTTableViewDataSourceDelegate"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "simple table view dataSource & delegate."
 
   s.description  = <<-DESC
@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
                    支持多个dataSource的组合；
                    DESC
 
-  s.homepage     = "https://github.com/NEYouFan/HTTableViewDataSourceDelegate-iOS.git"
+  s.homepage     = "https://github.com/NEYouFan/ht-tableviewdatasourcedelegate-ios"
 
   s.license      = "MIT"
 
   s.author             = { "netease" => "taozeyu890217@126.com" }
 
-  s.source       = { :git => 'https://github.com/NEYouFan/HTTableViewDataSourceDelegate-iOS.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/NEYouFan/ht-tableviewdatasourcedelegate-ios.git', :tag => s.version.to_s }
 
   s.platform     = :ios, "7.0"
 
